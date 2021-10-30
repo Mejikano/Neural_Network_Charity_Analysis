@@ -12,13 +12,13 @@ Alphabet Soup has been funding organizations over the years, unfortunately not a
     *** IS_SUCCESSFUL *** is the target variable as it states whether the money provided was effectively used. Therefore this is the variable to be predicted.
 - What variable(s) are considered to be the features for your model?
     *** Model Features: *** 
-    ***APPLICATION_TYPE***: Alphabet Soup application type
-    ***AFFILIATION***: Affiliated sector of industry
-    ***CLASSIFICATION***: Government organization classification
-    ***USE_CASE***: Use case for funding
-    ***ORGANIZATION***: Organization type
-    ***INCOME_AMT***: Income classification
-    ***ASK_AMT***: Funding amount requested
+    - ***APPLICATION_TYPE***: Alphabet Soup application type
+    - ***AFFILIATION***: Affiliated sector of industry
+    - ***CLASSIFICATION***: Government organization classification
+    - ***USE_CASE***: Use case for funding
+    - ***ORGANIZATION***: Organization type
+    - ***INCOME_AMT***: Income classification
+    - ***ASK_AMT***: Funding amount requested
 - What variable(s) are neither targets nor features, and should be removed from the input data?
     *** Dropped Variables *** below columns were dropped as they dont add any useful variance for the model.
     ***EIN*** and ***NAME***: Identification columns
